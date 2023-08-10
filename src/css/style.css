@@ -1,0 +1,144 @@
+body {
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+.input {
+    display: inline-block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+}
+
+.contact-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    max-width: 500px;
+}
+
+
+.contact-list-item:first-child,
+.contact-list-item:last-child {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.contact-list-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.contact-main {
+    display: flex;
+    align-items: center;
+}
+.form-control {
+    display: flex;
+    width: 500px;
+}
+#innorgn-input {
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+[data-id=innogrn-submit] {
+    width: 125px;
+    margin-left: 10px;
+    background-color: rgb(102, 201, 102);
+    border: none;
+    border-radius: 5px;
+}
+#widget-container {
+    display: grid;
+    justify-items: start;
+    grid-template-rows: 40px 35px;
+    /* grid-template-columns: 50% 50%; */
+}
+
+
+.contact-list-item-img {
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.contact-list-item-name,
+.contact-list-item-phone,
+.contact-list-item-action {
+    margin-right: 1rem;
+}
+
+.icon_container {
+    display: flex;
+    height: 30px;
+    width: 300px;
+    justify-content: start;
+}
+.widget-container{
+
+}
+.icon_container img {
+    width: 100px;
+    height: 100%;
+    background-size: 40px 55px;
+    background-position: top -27px right 0px;
+}
+.icon_container .active{
+    background-position: top 0px right 0px;
+}
+
+.visa {
+    background: no-repeat url("../img/card-visa.gif");
+}
+
+.mc {
+    background: center no-repeat url("../img/card-mastercard.gif");
+}
+.ae {
+    background: center no-repeat url("../img/card-amex.gif");
+}
+.discover {
+    background: center no-repeat url("../img/card-discover.gif");
+}
+.jcb {
+    background: center no-repeat url("../img/card-jcb.gif");
+}
+.dinner {
+    background: center no-repeat url("../img/card-diners.gif");
+}
+.mir {
+    background: center no-repeat url("../img/card-mir.gif");
+}
+
+/* 4024007171909962 visa */
+/* 2024007171909962  mir */
+/* 370581502199855   AE */ 
+/* 36144214906145 dinner */
+/* 3024007171909962  JCB */
+/* 6024007171909962 discover */
+/* 5024007171909962 mastercard */
